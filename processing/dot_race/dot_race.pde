@@ -4,21 +4,34 @@ void setup() {
   size(900, 700);
   background.resize(900, 700);
 }
-float x=1.5;
+float x1=1.5;
+float x2=1.5;
 void draw() {
   background(background);
-  if (x<790) {
-    x=x+10;
-  }
-  ellipse(x, 270, 50, 30);
-  ellipse(x, 430, 50, 30);
+
+  ellipse(x1, 270, 50, 30);
+  ellipse(x2, 430, 50, 30);
   //println(x);
 }
 void keyPressed()
 {
-  print(key);
-  if(key=='J'
-  x=x+10;
-  
+
+  if (key=='j') {
+    if (x2<790) {
+      x2=x2+10;
+      if (x2>=790) {
+        print("player 2 has won");
+      }
+    }
+  }
+  if (key == 'a')
+  {
+    if (x1<790) {
+      x1=x1+10;
+      if (x1>=790) {
+        print("player 1 has won");
+      }
+    }
+  }
 }
 
