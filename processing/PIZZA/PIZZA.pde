@@ -1,9 +1,10 @@
 PImage pepperoni;
 int pepperoniX;
 int pepperoniY;
+
 PImage canadianBacon;
 int canadianBaconX;
-int canadianBaconY;
+int canadianBaconY; 
 void setup()
 {
   pepperoni=loadImage("pepperoni.ppm.gif");
@@ -23,11 +24,14 @@ void draw()
   image(pepperoni, pepperoniX, pepperoniY);
   image(canadianBacon,canadianBaconX,canadianBaconY);
 }
+
 void mousePressed()
+
 {
   pepperoniX=mouseX;
   pepperoniY=mouseY;
-  canadianBaconX=mouseX;
-  canadianBaconY=mouseY;
+  
+  canadianBaconX=mouseX+25;
+  canadianBaconY=mouseY+25;
 }
 
