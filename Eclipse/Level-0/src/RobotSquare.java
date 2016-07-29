@@ -19,8 +19,15 @@ public class RobotSquare {
 		idk.move(280);
 		idk.turn(90);
 		idk.move(600);
-		
-		
+		idk.turn(220);
+		idk.move(380);
+		idk.turn(280);
+		idk.move(400);
+	
+	
 	}
-
+	
+		
+		
+		
 }
