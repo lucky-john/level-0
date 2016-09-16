@@ -1,0 +1,22 @@
+import org.jointheleague.graphical.robot.*;
+
+public class Polygons {
+	public static void main(String[] args) {
+		int sides = 8;
+		float angle = getAngle(sides);
+		Robot jake=new Robot ();
+		jake.setSpeed(10);
+		jake.penDown();
+		jake.turn(-120);
+		jake.move(100);
+		jake.turn(60);
+		
+	}
+
+	public static float getAngle(int sides) {
+		float total = sides * 180 - 360;
+		float angle = total / sides;
+		return angle;
+	}
+
+}
