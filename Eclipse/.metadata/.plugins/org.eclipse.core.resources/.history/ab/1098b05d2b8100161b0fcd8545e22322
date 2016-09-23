@@ -25,9 +25,9 @@ public class Polygons {
 		jake.move(100);
 		jake.turn(-90);
 		jake.move(100);
-		}
+		{
 			
-			
+			{
 	}
 
 	public static float getAngle(int sides) {
