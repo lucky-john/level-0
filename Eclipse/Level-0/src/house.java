@@ -1,8 +1,20 @@
+import org.jointheleague.graphical.robot.Robot;
 
 public class house {
 	public static void main(String[] args) {
 		for (int i = 0; i < 4; i = i + 1) {
 		}
+	 Robot joey = new Robot();
+
+				
+				joey.penDown();
+				float angle=getAngle(4);for(
+				int i = 0;i<4;i=i+1)
+
+				{
+					joey.move(100);
+					joey.turn(180 - 90);
+				}
 
 	}
 
@@ -12,19 +24,8 @@ public class house {
 		return angle;
 	}
 
-public static void drawshape(int sides)
+	public static void drawshape(int sides)
 
-	
-{
+	{
 
-}
-new Robot = joey
-	joey.penDown();
-	float angle=getAngle(sides);
-			for (int i = 0; i < 4; i = i + 1) 
-			{
-				move(100);
-				turn(180-angle);
-			}
-	
-}
+		{
