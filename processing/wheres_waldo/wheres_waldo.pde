@@ -30,7 +30,7 @@ void draw() {
   }
   if (millis()>30000) {
     image(ugly,0,0);
-    println("1 seconds has past");
+    println("30 seconds has past");
    
   }
 }
