@@ -23,9 +23,11 @@ public class house {
 		float angle = total / sides;
 		return angle;
 	}
+	
 
 	public static void drawshape(int sides)
 
 	{
 
-		{
+	}}
+		
